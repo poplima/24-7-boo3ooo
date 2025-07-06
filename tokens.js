@@ -1,4 +1,3 @@
-// status can be "online", "idle", "dnd", or "invisible" or "offline"
 export default [
     {
         channelId: "1389483516193935410",
@@ -7,7 +6,7 @@ export default [
         selfDeaf: false,
         autoReconnect: {
             enabled: true,
-            delay: 15, // ثواني
+            delay: 15,
             maxRetries: 50,
         },
         presence: {
@@ -15,19 +14,19 @@ export default [
         },
         selfMute: false,
     },
-      {
+    {
         channelId: "1389483516193935410",
         serverId: "777271906486976512",
         token: process.env.sexy,
         selfDeaf: false,
         autoReconnect: {
             enabled: true,
-            delay: 15, // ثواني
+            delay: 15,
             maxRetries: 50,
         },
         presence: {
             status: "dnd",
         },
-        selfMute: false,
+        selfMute: true,
     },
-   ]
+];
